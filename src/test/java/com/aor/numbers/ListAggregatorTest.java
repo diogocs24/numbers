@@ -8,14 +8,7 @@ import java.util.List;
 
 public class ListAggregatorTest {
     @Test
-    public void sum() {
-        List<Integer> list = Arrays.asList(1,2,4,2,5);
 
-        ListAggregator aggregator = new ListAggregator();
-        int sum = aggregator.sum(list);
-
-        Assertions.assertEquals(14, sum);
-    }
 
     @Test
     public void max() {
